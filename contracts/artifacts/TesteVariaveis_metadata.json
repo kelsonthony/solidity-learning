@@ -7,19 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "texto1",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "texto2",
 				"outputs": [
 					{
@@ -60,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/TestVariavel.sol": {
-			"keccak256": "0xf5f219d37d7b99ddd6ab5e9442cd94889bba821a5625bafadf74088e3d8a1c09",
+			"keccak256": "0xe4a1aa995c4a644f7e8a220b84b5b2b1c9cedbecdf562828169fcc76f75b97eb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c3dede5bd506faa73d2963576d63718b90fbd2c938e4eb1f642886226e28c437",
-				"dweb:/ipfs/QmaYyZfF3CJq1EDTuyEqotQTDnFXv6AhMZUV1M39Ytzsd5"
+				"bzz-raw://0f9d282aec4c8d6328b806f9780e1ef4c526f9cbc1f6131f5e8f3b6ff1585864",
+				"dweb:/ipfs/QmYysBFdRr8FZnvX6X9DBbHAfEN6NjCduReUubHnM4yxMc"
 			]
 		}
 	},
