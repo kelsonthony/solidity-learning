@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "texto1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "texto2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TestVariavel.sol": "TesteVariaveis"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TestVariavel.sol": {
+			"keccak256": "0xf5f219d37d7b99ddd6ab5e9442cd94889bba821a5625bafadf74088e3d8a1c09",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c3dede5bd506faa73d2963576d63718b90fbd2c938e4eb1f642886226e28c437",
+				"dweb:/ipfs/QmaYyZfF3CJq1EDTuyEqotQTDnFXv6AhMZUV1M39Ytzsd5"
+			]
+		}
+	},
+	"version": 1
+}
