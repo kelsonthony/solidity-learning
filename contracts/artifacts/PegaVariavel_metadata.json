@@ -7,12 +7,25 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "texto2",
+				"name": "numero",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "int256",
 						"name": "",
-						"type": "string"
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pegaNumero",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -32,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/TestVariavel.sol": "TesteVariaveis"
+			"contracts/PegaVariavel.sol": "PegaVariavel"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/TestVariavel.sol": {
-			"keccak256": "0x0c5febad39826599eb9695ba019ea55ad75c0e73fe6d13848b39db3e10e7b3ee",
+		"contracts/PegaVariavel.sol": {
+			"keccak256": "0x33d1485262bbacb052ebd711d6ae9a9e091847bfb4deba3fc5c8dbe2b2bdcf6b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://31e96c34445d41e73673bceefc6572a55269debdf37acdd810f4217c033e7a83",
-				"dweb:/ipfs/QmfBgUdENRgBw8LWR29GRJZCixvF5fWJfpFDrRmRsiegtT"
+				"bzz-raw://024a052e616789712aff3aabb579e27c0652489f4d70c9c320246d3f59d7d7e9",
+				"dweb:/ipfs/Qmakz7SyqmihbVSzW2idgxeMfQ6F9XBBXN8cc1U7c8hqdi"
 			]
 		}
 	},
