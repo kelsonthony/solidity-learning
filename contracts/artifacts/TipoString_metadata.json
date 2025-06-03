@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "nome",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TipoString.sol": "TipoString"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TipoString.sol": {
+			"keccak256": "0x8687406d30366aa67618f74201b1812a0193c86cc85ae661027103f8f72ba483",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://38981a18a0e9eb49f4ced7be25820b9f44cfde5f1182f384ad02b3c82cc52bb1",
+				"dweb:/ipfs/QmdLvoSpCKhoxa4S9V1WAhGvApq7bnp4GRawW6BsBFF3t5"
+			]
+		}
+	},
+	"version": 1
+}
