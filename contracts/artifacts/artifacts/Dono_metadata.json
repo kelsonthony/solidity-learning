@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/artifacts/Arrays.sol": "Dono"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/artifacts/Arrays.sol": {
+			"keccak256": "0xaeb9f2b5d1c4f420cff680536a28f9e4bc3a23dc451da3733a1b25362ddb16b1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5e2c4b1ce16666c10e6e1adeb34c615bcd2fb74a630510bf69b6824850ddfe4d",
+				"dweb:/ipfs/Qmddr4ids5jsfUj7hTnknCgrTG7TCfyxeGUaWfD1QSJhf4"
+			]
+		}
+	},
+	"version": 1
+}

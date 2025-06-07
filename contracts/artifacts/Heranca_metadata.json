@@ -7,12 +7,23 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "contagem",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "heranca",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -20,16 +31,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "incrementa",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "incrementaExterno",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "lerValodrdaAna",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -46,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Visibilidade.sol": "Visibilidade"
+			"contracts/Heranca.sol": "Heranca"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -60,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Visibilidade.sol": {
-			"keccak256": "0x58a8d732456670658c7724585350e8637e9662fcc93ed979d7b295dfa38a4d59",
+		"contracts/Heranca.sol": {
+			"keccak256": "0xfc6ecb4d2e25309e92202de725a0a92ac2caa0b94b372c530ab698a7abec3203",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://15431c62a58d4f2fff716912279e7bea92054237caf9d26415f46d2e48cedefa",
-				"dweb:/ipfs/Qmbtdx8JVqXSk2EuJW4SsxSsKi5KGc8HBsyzpkV2uu9iZB"
+				"bzz-raw://37af4236508e96f80ba356868ac76703193bf18d1f78a76d322ec0d3ad7393ef",
+				"dweb:/ipfs/QmWtWdoxchovWD1XcX4Mamx7HABZ3p2itRZLjxzNeQwPss"
 			]
 		}
 	},

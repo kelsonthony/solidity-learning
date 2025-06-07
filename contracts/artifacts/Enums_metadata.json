@@ -7,29 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "contagem",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "status",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "enum Enums.Status",
 						"name": "",
-						"type": "int256"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "incrementa",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "incrementaExterno",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -46,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Visibilidade.sol": "Visibilidade"
+			"contracts/Enums.sol": "Enums"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -60,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Visibilidade.sol": {
-			"keccak256": "0x58a8d732456670658c7724585350e8637e9662fcc93ed979d7b295dfa38a4d59",
+		"contracts/Enums.sol": {
+			"keccak256": "0xa3e1ed33566d10896425b3fc0fb68f53293e9d32ed7efebfa4b6982fd1c5a082",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://15431c62a58d4f2fff716912279e7bea92054237caf9d26415f46d2e48cedefa",
-				"dweb:/ipfs/Qmbtdx8JVqXSk2EuJW4SsxSsKi5KGc8HBsyzpkV2uu9iZB"
+				"bzz-raw://bd6e502f7f1fdfdd342a14aa68012dce95e087dfd455f08ceddcb37ffd1004e8",
+				"dweb:/ipfs/QmUKdvL122WddU1Apz6NZNnBdCnF9VMc2EffGHLdu2NeSi"
 			]
 		}
 	},

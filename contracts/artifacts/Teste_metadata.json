@@ -6,30 +6,29 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valor",
+						"type": "uint256"
+					}
+				],
+				"name": "alteraValor",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "contagem",
+				"name": "valor",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "incrementa",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "incrementaExterno",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -46,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Visibilidade.sol": "Visibilidade"
+			"contracts/Teste.sol": "Teste"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -60,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Visibilidade.sol": {
-			"keccak256": "0x58a8d732456670658c7724585350e8637e9662fcc93ed979d7b295dfa38a4d59",
+		"contracts/Teste.sol": {
+			"keccak256": "0x206745537e99b3917045cc7ba257e66dcdd3421471d5e5d1f70085d0e0157513",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://15431c62a58d4f2fff716912279e7bea92054237caf9d26415f46d2e48cedefa",
-				"dweb:/ipfs/Qmbtdx8JVqXSk2EuJW4SsxSsKi5KGc8HBsyzpkV2uu9iZB"
+				"bzz-raw://5153aa332785ca15700e3946e2355f74536b691262b83f17fbff6a961bb83c64",
+				"dweb:/ipfs/QmRc7KBxdSkDXQDmbXziX6UqsgNvSNq3MKfgoxc9vkLRpG"
 			]
 		}
 	},

@@ -9,29 +9,29 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "primeira",
+						"name": "par1",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "segunda",
+						"name": "par2",
 						"type": "string"
 					}
 				],
-				"name": "concatena",
-				"outputs": [
+				"name": "criaPar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "texto",
+				"name": "par",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -56,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/String2.sol": "String2"
+			"contracts/Par.sol": "Par"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -70,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/String2.sol": {
-			"keccak256": "0xdb02c0c6ce8532ec4d2ce10e8006d2872aee66f0f4efeb321c22d2b6147e42cb",
+		"contracts/Par.sol": {
+			"keccak256": "0xfd9765e722614b72015d723202b0c0a8112453526777dba4a8e614fa049d2a96",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4e0de71c27212696173dd173a10418d5864c8722009c6976957ad5de0a4786a4",
-				"dweb:/ipfs/QmZSZyuh6gBAGBeAYZ7jo27V9XB1rdzMtF1ZCkVJUQrCwd"
+				"bzz-raw://ead192af76d79dd4b20cb459ea2c0c98cab7a7658ae9cfcee8da4278c02ea819",
+				"dweb:/ipfs/QmSBK6xTHnKzRF8jZUFdoutBcfU6DYiHZtLEWmE9ZUvgFf"
 			]
 		}
 	},

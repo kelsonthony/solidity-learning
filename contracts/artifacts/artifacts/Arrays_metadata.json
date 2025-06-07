@@ -8,30 +8,31 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "primeira",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "segunda",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "concatena",
+				"name": "meuInteiro",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "texto",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "minhasStrings",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -56,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/String2.sol": "String2"
+			"contracts/artifacts/Arrays.sol": "Arrays"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -70,12 +71,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/String2.sol": {
-			"keccak256": "0xdb02c0c6ce8532ec4d2ce10e8006d2872aee66f0f4efeb321c22d2b6147e42cb",
+		"contracts/artifacts/Arrays.sol": {
+			"keccak256": "0xf33c306f1197145476ffe4bb278e33d18993fa0d13824409ffd13f0602e76031",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4e0de71c27212696173dd173a10418d5864c8722009c6976957ad5de0a4786a4",
-				"dweb:/ipfs/QmZSZyuh6gBAGBeAYZ7jo27V9XB1rdzMtF1ZCkVJUQrCwd"
+				"bzz-raw://7217aa22c0eba3b67b695bd0a60249796b67062f6df9b1d8f0f6cd439b475511",
+				"dweb:/ipfs/QmVWHvvyjTsfCZRtkbbwG7coBUDA17My97V7RHqfHXxwBL"
 			]
 		}
 	},

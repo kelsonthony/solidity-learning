@@ -7,12 +7,24 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "contagem",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "alteraEndereco",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dono",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "address",
 						"name": "",
-						"type": "int256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -20,14 +32,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "incrementa",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "endereco",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "incrementaExterno",
+				"name": "privada",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -46,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Visibilidade.sol": "Visibilidade"
+			"contracts/Dono1.sol": "Dono1"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -60,12 +78,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Visibilidade.sol": {
-			"keccak256": "0x58a8d732456670658c7724585350e8637e9662fcc93ed979d7b295dfa38a4d59",
+		"contracts/Dono1.sol": {
+			"keccak256": "0x9c0b9e0308705ae873e289dc26361c0ecbffc897b98b5d34c2108e5ee6c0da7c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://15431c62a58d4f2fff716912279e7bea92054237caf9d26415f46d2e48cedefa",
-				"dweb:/ipfs/Qmbtdx8JVqXSk2EuJW4SsxSsKi5KGc8HBsyzpkV2uu9iZB"
+				"bzz-raw://e0886d4398cca0c2a59402ca81699000af88094223a2b34a11152d24fac5f9d8",
+				"dweb:/ipfs/QmdrNY4VUvs5gCHtK5gDkmqabtMdCW9SXeCB6XH7Dxg2py"
 			]
 		}
 	},
