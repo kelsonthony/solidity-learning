@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ArraysDinamicos.sol": "ArraysReferencia"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ArraysDinamicos.sol": {
+			"keccak256": "0xd00c8064506a966a43a2ac4abe25dd087c602eff990668bedbfbed0b02e74017",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://391849476f9d6823acb1a933880c99ee418a35c577a2ff9f8b2de38be619c1f4",
+				"dweb:/ipfs/QmUixkCGUBwcijU5hSkiYbMqU7QQBYCthCcviaKxwXd3PX"
+			]
+		}
+	},
+	"version": 1
+}
