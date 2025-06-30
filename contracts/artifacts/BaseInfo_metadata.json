@@ -7,27 +7,22 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "createTransaction",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "dono",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "restrita",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "retornaInfo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -44,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Dono2.sol": "Dono"
+			"contracts/BaseInfo.sol": "BaseInfo"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -58,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Dono2.sol": {
-			"keccak256": "0x8a7da018f5c68cc10da76d4b565153b658b477f55d8d499fbb68b7ebd63052b3",
+		"contracts/BaseInfo.sol": {
+			"keccak256": "0x5508975bb4079ff32a25b43a9d973cdfc6bf7bf7bcdc0488879fc12cdee97789",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://0df7df4b98a3dfb9c6ed3ebbbde86647905babac88f4fc573f6f0726b0195b6f",
-				"dweb:/ipfs/Qme7WmcHZvmQ1xVAL7ysu29Prqh87ueANQRtKsVyXRanRo"
+				"bzz-raw://57f2cc97697f4219a1743a876cf3e2af65dea4e43990e12010b42c4f2b361123",
+				"dweb:/ipfs/QmP5oCfLb6eWKwrnsoXLedmvbD2C5mgR3L16m2TwqD9uVd"
 			]
 		}
 	},

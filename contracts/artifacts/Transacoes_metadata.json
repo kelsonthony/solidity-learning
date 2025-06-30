@@ -7,12 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"name": "pegaDados",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "dono",
+				"name": "pegaEnvio",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -25,9 +33,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "restrita",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "pegaValor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -44,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Dono2.sol": "Dono"
+			"contracts/Transacoes.sol": "Transacoes"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -58,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Dono2.sol": {
-			"keccak256": "0x8a7da018f5c68cc10da76d4b565153b658b477f55d8d499fbb68b7ebd63052b3",
+		"contracts/Transacoes.sol": {
+			"keccak256": "0xe3def3fae05702f6e90c315354a28ce50e966910a9db5b7e03217f12029622c9",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://0df7df4b98a3dfb9c6ed3ebbbde86647905babac88f4fc573f6f0726b0195b6f",
-				"dweb:/ipfs/Qme7WmcHZvmQ1xVAL7ysu29Prqh87ueANQRtKsVyXRanRo"
+				"bzz-raw://bf24365f16afd95273eadf31103cbe3c1960cb8e3fb44c8c543de943e9ea82e7",
+				"dweb:/ipfs/Qmd6TszhAFkrwiYGT4U3UpEZrwZop3RM7tnxTrd6fgLXZb"
 			]
 		}
 	},

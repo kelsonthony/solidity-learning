@@ -8,22 +8,47 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_firstName",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_lastName",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_age",
-						"type": "uint256"
+						"components": [
+							{
+								"internalType": "string",
+								"name": "firstName",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "lastName",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Persons.Person",
+						"name": "_person",
+						"type": "tuple"
 					}
 				],
 				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_indice",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "newAge",
+						"type": "uint256"
+					}
+				],
+				"name": "changeAge",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -71,7 +96,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Persons.sol": "Persons"
+			"contracts/Persons1.sol": "Persons"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -85,12 +110,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Persons.sol": {
-			"keccak256": "0xeb547084b73b86fca2d9425c0d2cf4c3cedcfa22dc6b1288cd02e863cdaccc09",
+		"contracts/Persons1.sol": {
+			"keccak256": "0x0548bcade1d50390431b2b351fcca4276f16989f2c21ae8d2b0c7f72c25c0d2b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b3b602668b030ed232685ea4e72a000ca08b9c9a3f8124ee181a316289fb8270",
-				"dweb:/ipfs/QmUmKbC69NoDamq8PrM8XaaeumyDWdLdqhGVdDVQq89Fok"
+				"bzz-raw://ae6364dcac7093dfb695f4f9a6808400050f9f01b125ea6e9961981b003f6afc",
+				"dweb:/ipfs/Qmdo3STebWaazwbmrscSBArawx359NCQUkhpBicVT69NTD"
 			]
 		}
 	},
