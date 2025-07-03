@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "gravaTempo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "passadoTempo",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tempoAgora",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ComparaTempo.sol": "ComparaTempo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ComparaTempo.sol": {
+			"keccak256": "0xb87a1fcf8fc8442adf5567544db0c95b38319eaafdd66740a4afcdceaf7b5d35",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://355a72f16267271800f1acaecbc5f0c8e0572789f66f5cc95e481676266c4afb",
+				"dweb:/ipfs/QmQ1LYArA96A6D8ZoA1Ur2CAfZDB4hs9nu6SUQg4b18dBj"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "impar",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "recebe",
+						"type": "uint256"
+					}
+				],
+				"name": "incrementa",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "par",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IfElse.sol": "IfElse"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IfElse.sol": {
+			"keccak256": "0xeff14b2e7dadcb26d27f1b8ba9ecf55b06fc5ae099b2f6519f8a7ee4868f9daf",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b8b16bdbcf3f63bfc3447ddefa69811f8e94a4a2de1177e7067503c62af4a965",
+				"dweb:/ipfs/QmSduUCj3TTY19U9DwpspS3zD5BCUto8EVRagvUfoAmTS2"
+			]
+		}
+	},
+	"version": 1
+}

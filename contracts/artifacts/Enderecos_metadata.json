@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "pegaCodigo",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pegaSaldo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Enderecos.sol": "Enderecos"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Enderecos.sol": {
+			"keccak256": "0xbdc7fa07be30f64d96d68abdbe4f1da8dacaa96149ff916b5f49acafb916698c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a6d0392a8d3bf655d0e125dafca16a0051af1d2f88825fcce1fdcf2ed7e5e6c8",
+				"dweb:/ipfs/QmYnAE7h1PnBHndUn8ocweWyLMt7zy8QQ2BC2fstZ1TPMQ"
+			]
+		}
+	},
+	"version": 1
+}

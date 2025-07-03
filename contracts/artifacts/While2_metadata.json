@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "repete",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/While2.sol": "While2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/While2.sol": {
+			"keccak256": "0xf708e54684f499c1d10bec6eb8f61d9cec3544ac8cbc1092951074883b16d9bf",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://436bb5684f744ad8e16701c2a698b32353a7755fd941b7e56e992c748d3d482f",
+				"dweb:/ipfs/QmPsiq8QoqXxCXUCPpZDd1hAdCmpV1b1nxDZ8TznNNnNLK"
+			]
+		}
+	},
+	"version": 1
+}

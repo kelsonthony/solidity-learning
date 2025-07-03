@@ -1,0 +1,75 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50603c80601d6000396000f3fe608060405200fea2646970667358221220f8fc03d2843317e883d521714da236d9f7a32629b09107f171916fa9124fa26364736f6c63430008070033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3C DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE STOP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xF8 0xFC SUB 0xD2 DUP5 CALLER OR 0xE8 DUP4 0xD5 0x21 PUSH18 0x4DA236D9F7A32629B09107F171916FA9124F LOG2 PUSH4 0x64736F6C PUSH4 0x43000807 STOP CALLER ",
+			"sourceMap": "70:58:0:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {
+				"@_5": {
+					"entryPoint": null,
+					"id": 5,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "608060405200fea2646970667358221220f8fc03d2843317e883d521714da236d9f7a32629b09107f171916fa9124fa26364736f6c63430008070033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE STOP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xF8 0xFC SUB 0xD2 DUP5 CALLER OR 0xE8 DUP4 0xD5 0x21 PUSH18 0x4DA236D9F7A32629B09107F171916FA9124F LOG2 PUSH4 0x64736F6C PUSH4 0x43000807 STOP CALLER ",
+			"sourceMap": "70:58:0:-:0;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12000",
+				"executionCost": "66",
+				"totalCost": "12066"
+			},
+			"external": {
+				"": "18"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"stateMutability": "payable",
+			"type": "fallback"
+		}
+	]
+}

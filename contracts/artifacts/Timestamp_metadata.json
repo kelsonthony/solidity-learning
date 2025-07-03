@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "gravaTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "novoTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Timestamp.sol": "Timestamp"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Timestamp.sol": {
+			"keccak256": "0x78d7252770947dc97077934a93b28a7dffe77ccc44bffadba01c5fad6fc0233e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0a1fddf171ce39b7aa564b7c20af7ed54074c83c2b1b317a129e08b7d191566b",
+				"dweb:/ipfs/QmTLTdhbZx5tjRQgDSoBxG9wppfcpojanHLREwi1LXgYFQ"
+			]
+		}
+	},
+	"version": 1
+}
